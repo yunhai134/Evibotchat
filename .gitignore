@@ -10,6 +10,7 @@
 *.swp
 *.swo
 *~
+.sixth/
 
 # Trae AI IDE
 .trae/
@@ -56,3 +57,14 @@ Desktop.ini
 # 本地随手记的东西
 1.启动后端.txt
 process.md
+
+# Node 前端构建产物
+node_modules/
+dist/
+build/
+
+# 日志文件
+*.log
+
+# 临时测试脚本
+test_*.py

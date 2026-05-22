@@ -37,43 +37,33 @@ def _is_identity_question(question: str) -> bool:
 
 
 SYSTEM_PROMPT = """
-你是 Evibot（循证），一名专业的循证医学知识助手。你必须严格基于检索到的医学教材片段和问答知识库内容回答用户问题。
+你是基于权威医学教材的问答助手。请严格遵守以下规则：
 
-【角色定位】
-- 你是循证医学知识助手，所有回答必须以检索到的权威医学资料为依据。
-- 你不是医生，不能提供个性化诊断或治疗方案。
-- 你的回答应体现循证医学精神：有据可依、分级推荐、明确证据等级。
+1. 阅读提供的知识片段后，用通俗流畅的语言**整合出一段连贯回答**，不要简单罗列片段。
+2. 先给出核心结论，再分点展开机制、分类、处理原则等。
+3. 如果不同片段存在矛盾，请指出并优先采纳最新版教材的说法。
+4. 回答字数控制在 300 字以内，若内容过多，用"如需详细内容可继续追问"结尾。
+5. 回答末尾以"参考文献: [1] 书名+章节"格式注明来源，不要直接复制大段原文。
+6. 若检索内容不足以回答，坦诚说明，不要推测。
+7. 你不是医生，不能提供个性化诊断或治疗方案。涉及用药、诊断、急症时，必须在回答末尾添加安全提示。
 
-【回答结构 - 必须严格遵守】
-1. **概述**：先用 1-2 句话直接回答用户问题的核心要点，让用户快速获取关键信息。
-2. **详细说明**：基于检索到的资料，分层次展开说明：
-   - 使用二级标题(##)划分大章节，三级标题(###)划分子章节。
-   - 每个要点使用 **加粗** 标记关键词，便于快速扫读。
-   - 如涉及病因、症状、诊断、治疗等维度，分别用标题清晰区分。
-3. **循证标注**：在引用具体医学数据或结论时，使用引用块标注来源，例如：
-   > 《默沙东诊疗手册·心脏和血管疾病》第 142 页
-4. **安全提示**：涉及以下情况时，必须在回答末尾添加醒目提示：
-   - 诊断相关 → "⚠️ 以上信息仅供参考，不能替代专业医生的诊断。如有疑虑，请及时就医。"
-   - 用药相关 → "⚠️ 用药必须在医生指导下进行，切勿自行用药。"
-   - 急症相关 → "🚨 如出现紧急症状，请立即拨打 120 或前往最近的急诊。"
-   - 综合情况 → "⚠️ 以上内容基于医学教材资料，仅供参考，不能替代专业医生的诊断和治疗建议。如有身体不适，请及时就医。"
+你的所有回答必须以检索到的权威医学资料为依据，体现循证医学精神。
+""".strip()
 
-【格式规范 - 必须严格遵守】
-1. 使用标准中文 Markdown 格式输出，确保排版清晰可读。
-2. 段落之间必须空一行分隔，禁止所有内容挤在一起。
-3. 列表使用标准 Markdown 列表格式（- 或 1. 2. 3.），列表项之间空一行。
-4. 重点内容使用 **加粗** 标记，引用使用 > 引用块。
-5. 每个段落长度控制在 3-5 行，避免超长段落。
-6. 禁止输出无意义的星号(***)或连续分隔符。
-7. 医学术语首次出现时，用括号标注通俗解释，例如：心肌梗死（心脏肌肉因缺血而坏死）。
 
-【内容约束 - 必须严格遵守】
-1. 只能基于检索到的医学教材片段和问答知识库内容回答，不得编造任何医学信息。
-2. 如果资料不足以回答，明确说"当前知识库资料不足以确认"，不要推测或编造。
-3. 不回答与医学知识库无关的问题，礼貌说明你的专业范围。
-4. 如果同时有教材资料和问答知识库内容，优先以教材资料为主干，问答内容作为补充。
-5. 对于有争议的医学观点，如实呈现不同观点，并标注"医学界对此存在不同看法"。
-6. 不得给出具体药物剂量建议，如资料中包含剂量信息，需注明"具体用量请遵医嘱"。
+QUERY_REWRITE_PROMPT = """你是一个医学问题规范化助手。用户会用口语化方式提问，你需要将其改写为符合医学教材语境的正式检索式。
+
+规则：
+1. 将口语词汇替换为医学术语（如"血压高"→"高血压"，"吃啥药"→"药物治疗"）
+2. 补全隐含的医学维度（如症状→病因+诊断+治疗原则）
+3. 保持原意，不要添加用户没问的内容
+4. 只输出改写后的一句话检索式，不要输出任何解释、标点修饰或换行。
+
+示例：
+Q: 血压高吃啥药好
+A: 高血压的药物治疗原则及常用药物分类
+Q: 最近总是头疼怎么办
+A: 头痛的常见病因 诊断思路 治疗原则
 """.strip()
 
 
@@ -229,6 +219,44 @@ def _deduplicate_docs(
     return deduped
 
 
+async def _rewrite_query(question: str, settings) -> str:
+    """将口语化医学问题改写为教材检索用的正式问法。
+
+    使用 LLM 快速改写，失败时降级为原始问题，不阻塞主流程。
+    """
+    if not settings.openai_api_key:
+        return question
+
+    messages = [
+        ("system", QUERY_REWRITE_PROMPT),
+        ("human", f"Q: {question}\nA:"),
+    ]
+    try:
+        llm = ChatOpenAI(
+            model=settings.chat_model,
+            temperature=0.0,
+            streaming=False,
+            api_key=settings.openai_api_key,
+            base_url=settings.openai_base_url,
+        )
+        # 首次调用可能触发模型加载，设置较宽超时
+        response = await asyncio.wait_for(
+            llm.ainvoke(messages),
+            timeout=15.0,
+        )
+        rewritten = response.content.strip()
+        # 去除 LLM 可能多余输出的引号、标点尾缀
+        rewritten = rewritten.strip("\"'。，,;；!！?？：:、\n ")
+        if not rewritten or len(rewritten) < 2:
+            return question
+        print(f"[QueryRewrite] \"{question[:30]}\" → \"{rewritten[:50]}\"")
+        return rewritten
+    except Exception as e:
+        # 任何异常（超时、API错误）均降级为原始问题
+        print(f"[QueryRewrite] fallback (original): {type(e).__name__}")
+        return question
+
+
 def _retrieve_both_sources(
     question: str, settings
 ) -> tuple[list[tuple], bool, list[tuple]]:
@@ -295,12 +323,17 @@ async def stream_rag_answer(question: str) -> AsyncIterator[str]:
     settings = get_settings()
     loop = asyncio.get_running_loop()
 
-    # Phase 1: 解析中 - 检索知识库
+    # Phase 1: 解析中 - 改写查询 + 检索知识库
     yield "event: phase\ndata: retrieving\n\n"
 
-    # 1. 同时检索教材库和问答库
+    # 1. 查询改写：将口语化提问转为医学正式检索式
+    search_query = await _rewrite_query(question, settings)
+    if search_query != question:
+        yield f"event: rewritten\ndata: {json.dumps({'original': question, 'rewritten': search_query}, ensure_ascii=False)}\n\n"
+
+    # 2. 用改写后的检索式同时检索教材库和问答库
     book_results, is_reranked, qa_results = await loop.run_in_executor(
-        None, _retrieve_both_sources, question, settings
+        None, _retrieve_both_sources, search_query, settings
     )
 
     book_docs = [doc for doc, _ in book_results]
@@ -410,18 +443,17 @@ async def _stream_with_llm(
 ) -> AsyncIterator[str]:
     """有 LLM 时的综合输出。LLM 负责内容综合，程序控制输出结构。"""
 
-    # 构建 system prompt
+    # 构建 system prompt（附加资料质量提示）
     system = SYSTEM_PROMPT
     if not book_relevant and deduped_qa:
         system += (
-            "\n\n注意：教材库中未找到与用户问题高度相关的资料，"
-            "但问答知识库中有相关内容。请优先基于问答知识库的内容回答，"
-            "同时说明教材库资料不足，并提示不能替代医生面诊。"
+            "\n\n补充信息：教材库资料匹配度较低，以下内容主要来自问答知识库。"
+            "请在回答中说明教材库资料不足，并提示不能替代医生面诊。"
         )
     elif not book_relevant:
         system += (
-            "\n\n注意：教材库和问答库中均未找到高度相关的资料。"
-            "请如实告知当前知识库资料不足以确认。"
+            "\n\n补充信息：教材库和问答库均未找到高度相关资料。"
+            "请如实告知当前知识库资料不足以确认，不要推测。"
         )
 
     # 构建上下文：教材 + 去重后的 QA
@@ -441,19 +473,14 @@ async def _stream_with_llm(
         ("system", system),
         (
             "human",
-            "请严格基于以下医学资料回答问题，不要编造资料中没有的内容。\n\n"
-            f"问题：{question}\n\n{context}\n\n"
-            "请按照以下结构回答：\n"
-            "1. 先用 1-2 句话概述核心答案\n"
-            "2. 基于资料分层次详细说明\n"
-            "3. 引用资料时标注来源\n"
-            "4. 根据内容类型添加相应的安全提示"
+            "请基于以下医学资料回答问题，不要编造资料中没有的内容。\n\n"
+            f"问题：{question}\n\n{context}"
         ),
     ]
 
     llm = ChatOpenAI(
         model=settings.chat_model,
-        temperature=0.1,
+        temperature=0.3,
         streaming=True,
         api_key=settings.openai_api_key,
         base_url=settings.openai_base_url,

@@ -33,7 +33,7 @@ export function ChatInput() {
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, delay: 0.15 }}
-      className="border-t border-border/40 bg-background/80 backdrop-blur-xl px-4 py-3 md:px-6"
+      className="border-t border-border/40 bg-background/80 backdrop-blur-xl px-4 py-3 pb-safe md:px-6"
     >
       <div className="mx-auto max-w-3xl">
         {error && (

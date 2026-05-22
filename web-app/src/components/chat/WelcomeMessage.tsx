@@ -35,7 +35,7 @@ export function WelcomeMessage() {
       className="flex items-start gap-3"
     >
       <AssistantAvatar size={32} />
-      <div className="rounded-xl bg-card border border-border/50 shadow-sm p-4 text-sm font-medium leading-relaxed max-w-[80%] md:max-w-[75%]">
+      <div className="rounded-xl bg-card border border-border/50 shadow-sm p-4 text-sm font-medium leading-relaxed w-full md:max-w-[75%]">
         <p className="font-bold text-foreground mb-1">
           你好！我是 <strong>Evibot（循证）</strong>，您的家庭医学知识助手。
         </p>

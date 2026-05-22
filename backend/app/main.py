@@ -1,8 +1,16 @@
+import logging
 import os
 from pathlib import Path
 
 # 禁用 ChromaDB 遥测（避免 posthog 版本不兼容导致的 capture() 报错）
 os.environ["ANONYMIZED_TELEMETRY"] = "False"
+
+# 静音无害的第三方库日志噪音
+logging.getLogger("chromadb").setLevel(logging.ERROR)
+logging.getLogger("posthog").setLevel(logging.ERROR)
+logging.getLogger("transformers").setLevel(logging.ERROR)
+logging.getLogger("sentence_transformers").setLevel(logging.ERROR)
+logging.getLogger("httpx").setLevel(logging.WARNING)
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware

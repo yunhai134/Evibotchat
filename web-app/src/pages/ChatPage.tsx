@@ -5,9 +5,9 @@ import { EcgBackground } from "@/components/layout/EcgBackground"
 
 export function ChatPage() {
   return (
-    <div className="flex h-screen flex-col relative">
+    <div className="flex min-h-dvh flex-col relative">
       <EcgBackground />
-      <div className="relative z-10 flex h-screen flex-col">
+      <div className="relative z-10 flex min-h-dvh flex-col">
         <Header />
         <ChatContainer />
         <ChatInput />
