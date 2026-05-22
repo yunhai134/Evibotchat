@@ -1,0 +1,446 @@
+============================================================
+Step 1: 访问 https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders 收集主题链接
+============================================================
+原始链接: 493 条，去重后: 93 条独立文章
+
+共 81 个子分类:
+  [(根)] - 13 篇文章
+  [about-body-water] - 1 篇文章
+  [acidosis] - 1 篇文章
+  [acute-complications-of-diabetes-mellitus] - 1 篇文章
+  [acute-intermittent-porphyria] - 1 篇文章
+  [adrenal-insufficiency] - 1 篇文章
+  [adrenal-virilization] - 1 篇文章
+  [alkalosis] - 1 篇文章
+  [amyloidosis] - 1 篇文章
+  [arginine-vasopressin-deficiency-central-diabetes-insipidus] - 1 篇文章
+  [carcinoid-syndrome-due-to-neuroendocrine-tumors] - 1 篇文章
+  [cushing-syndrome] - 1 篇文章
+  [dehydration] - 1 篇文章
+  [drug-induced-autoimmune-endocrine-disorders] - 1 篇文章
+  [dyslipidemia] - 1 篇文章
+  [effects-of-aging-on-the-endocrine-system] - 1 篇文章
+  [elevated-hdl-cholesterol] - 1 篇文章
+  [empty-sella-syndrome] - 1 篇文章
+  [endocrine-disorders] - 1 篇文章
+  [endocrine-function] - 1 篇文章
+  [endocrine-glands] - 1 篇文章
+  [enlargement-of-the-pituitary-gland] - 1 篇文章
+  [erythropoietic-protoporphyria-and-x-linked-protoporphyria] - 1 篇文章
+  [gastrinoma] - 1 篇文章
+  [gigantism-and-acromegaly] - 1 篇文章
+  [glucagonoma] - 1 篇文章
+  [hashimoto-thyroiditis] - 1 篇文章
+  [hyperaldosteronism] - 1 篇文章
+  [hypercalcemia-high-level-of-calcium-in-the-blood] - 1 篇文章
+  [hyperkalemia-high-level-of-potassium-in-the-blood] - 1 篇文章
+  [hypermagnesemia-high-level-of-magnesium-in-the-blood] - 1 篇文章
+  [hypernatremia-high-level-of-sodium-in-the-blood] - 1 篇文章
+  [hyperparathyroidism] - 1 篇文章
+  [hyperphosphatemia-high-level-of-phosphate-in-the-blood] - 1 篇文章
+  [hyperthyroidism] - 1 篇文章
+  [hypocalcemia-low-level-of-calcium-in-the-blood] - 1 篇文章
+  [hypoglycemia] - 1 篇文章
+  [hypokalemia-low-level-of-potassium-in-the-blood] - 1 篇文章
+  [hypolipidemia] - 1 篇文章
+  [hypomagnesemia-low-level-of-magnesium-in-the-blood] - 1 篇文章
+  [hyponatremia-low-level-of-sodium-in-the-blood] - 1 篇文章
+  [hypoparathyroidism] - 1 篇文章
+  [hypophosphatemia-low-level-of-phosphate-in-the-blood] - 1 篇文章
+  [hypopituitarism] - 1 篇文章
+  [hypothyroidism] - 1 篇文章
+  [insulinoma] - 1 篇文章
+  [ipex-syndrome] - 1 篇文章
+  [long-term-complications-of-diabetes-mellitus] - 1 篇文章
+  [medication-treatment-of-diabetes-mellitus] - 1 篇文章
+  [multiple-endocrine-neoplasia-syndromes-men] - 1 篇文章
+  [nonfunctional-adrenal-masses] - 1 篇文章
+  [overhydration] - 1 篇文章
+  [overview-of-acid-base-balance] - 1 篇文章
+  [overview-of-calcium-s-role-in-the-body] - 1 篇文章
+  [overview-of-cholesterol-and-lipid-disorders] - 1 篇文章
+  [overview-of-diabetes-mellitus] - 1 篇文章
+  [overview-of-electrolytes] - 1 篇文章
+  [overview-of-gastrointestinal-and-pancreatic-neuroendocrine-tumors] - 1 篇文章
+  [overview-of-magnesium-s-role-in-the-body] - 1 篇文章
+  [overview-of-parathyroid-function] - 1 篇文章
+  [overview-of-phosphate-s-role-in-the-body] - 1 篇文章
+  [overview-of-porphyrias] - 1 篇文章
+  [overview-of-potassium-s-role-in-the-body] - 1 篇文章
+  [overview-of-sodium-s-role-in-the-body] - 1 篇文章
+  [overview-of-the-adrenal-glands] - 1 篇文章
+  [overview-of-the-pituitary-gland] - 1 篇文章
+  [overview-of-the-thyroid-gland] - 1 篇文章
+  [parathyroid-tumors] - 1 篇文章
+  [pheochromocytoma] - 1 篇文章
+  [poems-syndrome] - 1 篇文章
+  [polyglandular-deficiency-syndromes] - 1 篇文章
+  [porphyria-cutanea-tarda] - 1 篇文章
+  [prolactinoma] - 1 篇文章
+  [silent-lymphocytic-thyroiditis] - 1 篇文章
+  [simple-nontoxic-goiter] - 1 篇文章
+  [subacute-thyroiditis] - 1 篇文章
+  [syndrome-of-inappropriate-secretion-of-antidiuretic-hormone-siadh] - 1 篇文章
+  [thyroid-cancer] - 1 篇文章
+  [type-1-diabetes-mellitus-dm] - 1 篇文章
+  [type-2-diabetes-mellitus] - 1 篇文章
+  [vipoma] - 1 篇文章
+
+总计: 93 篇独立文章待采集
+
+============================================================
+Step 2: 逐篇访问并通过打印生成 PDF
+============================================================
+  [1/93] 跳过: 内分泌系统生物学
+  [2/93] 跳过: 内分泌腺体
+  [3/93] 跳过: 内分泌功能
+  [4/93] 跳过: 内分泌失调
+  [5/93] 跳过: 年龄对内分泌系统的影响
+  [6/93] 跳过: 酸碱平衡
+  [7/93] 跳过: 酸碱平衡概述
+  [8/93] 跳过: 酸中毒
+  [9/93] 跳过: 碱中毒
+  [10/93] 肾上腺疾病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders
+       OK (137KB)
+  [11/93] 非功能性肾上腺肿块
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/nonfunctional-adrenal-masses
+       OK (444KB)
+  [12/93] 肾上腺概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/overview-of-the-adrenal-glands
+       OK (471KB)
+  [13/93] 肾上腺功能不全
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/adrenal-insufficiency
+       OK (900KB)
+  [14/93] 库欣综合征
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/cushing-syndrome
+       OK (885KB)
+  [15/93] 肾上腺男性化
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/adrenal-virilization
+       OK (610KB)
+  [16/93] 醛固酮增多症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/hyperaldosteronism
+       OK (640KB)
+  [17/93] 嗜铬细胞瘤
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/adrenal-gland-disorders/pheochromocytoma
+       OK (717KB)
+  [18/93] 淀粉样变性
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/amyloidosis/amyloidosis
+       OK (927KB)
+  [19/93] 胃肠道和胰腺神经内分泌肿瘤
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/gastrointestinal-and-pancreatic-neuroendocrine-tumors
+       OK (166KB)
+  [20/93] 胃泌素瘤
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/gastrointestinal-and-pancreatic-neuroendocrine-tumors/gastrinoma
+       OK (642KB)
+  [21/93] 胰高血糖素瘤
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/gastrointestinal-and-pancreatic-neuroendocrine-tumors/glucagonoma
+       OK (592KB)
+  [22/93] 胰岛素瘤
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/gastrointestinal-and-pancreatic-neuroendocrine-tumors/insulinoma
+       OK (567KB)
+  [23/93] 血管活性肠肽瘤
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/gastrointestinal-and-pancreatic-neuroendocrine-tumors/vipoma
+       OK (569KB)
+  [24/93] 胃肠道和胰腺神经内分泌肿瘤概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/gastrointestinal-and-pancreatic-neuroendocrine-tumors/overview-of-gastrointestinal-and-pancreatic-neuroendocrine-tumors
+       OK (460KB)
+  [25/93] 神经内分泌肿瘤引起的类癌综合征
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/gastrointestinal-and-pancreatic-neuroendocrine-tumors/carcinoid-syndrome-due-to-neuroendocrine-tumors
+       OK (887KB)
+  [26/93] 胆固醇障碍性疾病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/cholesterol-disorders
+       OK (119KB)
+  [27/93] HDL 胆固醇升高
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/cholesterol-disorders/elevated-hdl-cholesterol
+       OK (469KB)
+  [28/93] 胆固醇及脂代谢紊乱概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/cholesterol-disorders/overview-of-cholesterol-and-lipid-disorders
+       OK (629KB)
+  [29/93] 血脂异常
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/cholesterol-disorders/dyslipidemia
+       OK (1412KB)
+  [30/93] 低脂血症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/cholesterol-disorders/hypolipidemia
+       OK (602KB)
+  [31/93] 糖尿病和低血糖（低血糖症）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/diabetes-mellitus-and-low-blood-sugar-hypoglycemia
+       OK (130KB)
+  [32/93] 糖尿病概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/diabetes-mellitus-and-low-blood-sugar-hypoglycemia/overview-of-diabetes-mellitus
+       OK (1197KB)
+  [33/93] 2 型糖尿病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/diabetes-mellitus-and-low-blood-sugar-hypoglycemia/type-2-diabetes-mellitus
+       OK (1178KB)
+  [34/93] 糖尿病的急性并发症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/diabetes-mellitus-and-low-blood-sugar-hypoglycemia/acute-complications-of-diabetes-mellitus
+       OK (943KB)
+  [35/93] 糖尿病的长期并发症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/diabetes-mellitus-and-low-blood-sugar-hypoglycemia/long-term-complications-of-diabetes-mellitus
+       OK (1129KB)
+  [36/93] 糖尿病的药物治疗
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/diabetes-mellitus-and-low-blood-sugar-hypoglycemia/medication-treatment-of-diabetes-mellitus
+       OK (1169KB)
+  [37/93] 1 型糖尿病 (DM)
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/diabetes-mellitus-and-low-blood-sugar-hypoglycemia/type-1-diabetes-mellitus-dm
+       OK (1367KB)
+  [38/93] 低血糖
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/diabetes-mellitus-and-low-blood-sugar-hypoglycemia/hypoglycemia
+       OK (922KB)
+  [39/93] 电解质平衡
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance
+       OK (162KB)
+  [40/93] 钠在人体内的作用概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-sodium-s-role-in-the-body
+       OK (613KB)
+  [41/93] 钾在人体内的作用概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-potassium-s-role-in-the-body
+       OK (444KB)
+  [42/93] 钙在人体内的作用概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-calcium-s-role-in-the-body
+       OK (468KB)
+  [43/93] 镁在人体内的作用概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-magnesium-s-role-in-the-body
+       OK (391KB)
+  [44/93] 磷酸盐在人体内的作用概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-phosphate-s-role-in-the-body
+       OK (394KB)
+  [45/93] 电解质概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/overview-of-electrolytes
+       OK (404KB)
+  [46/93] 抗利尿激素分泌不当综合征 (SIADH)
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/syndrome-of-inappropriate-secretion-of-antidiuretic-hormone-siadh
+       OK (703KB)
+  [47/93] 低磷血症（血液中的磷酸盐过低）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hypophosphatemia-low-level-of-phosphate-in-the-blood
+       OK (495KB)
+  [48/93] 低钠血症（血钠水平低）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hyponatremia-low-level-of-sodium-in-the-blood
+       OK (701KB)
+  [49/93] 高钠血症（高血钠水平）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hypernatremia-high-level-of-sodium-in-the-blood
+       OK (564KB)
+  [50/93] 低钾血症（血中钾水平低）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hypokalemia-low-level-of-potassium-in-the-blood
+       OK (644KB)
+  [51/93] 高钾血症（血钾水平升高）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hyperkalemia-high-level-of-potassium-in-the-blood
+       OK (696KB)
+  [52/93] 低钙血症（血钙过低）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hypocalcemia-low-level-of-calcium-in-the-blood
+       OK (620KB)
+  [53/93] 高钙血症（血钙水平过高）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hypercalcemia-high-level-of-calcium-in-the-blood
+       OK (811KB)
+  [54/93] 低镁血症（血镁水平低）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hypomagnesemia-low-level-of-magnesium-in-the-blood
+       OK (521KB)
+  [55/93] 高镁血症（血镁水平升高）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hypermagnesemia-high-level-of-magnesium-in-the-blood
+       OK (406KB)
+  [56/93] 高磷血症（血磷酸盐过高）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/electrolyte-balance/hyperphosphatemia-high-level-of-phosphate-in-the-blood
+       OK (507KB)
+  [57/93] 多发性内分泌腺瘤综合征
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/multiple-endocrine-neoplasia-syndromes/multiple-endocrine-neoplasia-syndromes-men
+       OK (938KB)
+  [58/93] 甲状旁腺疾病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/parathyroid-disorders
+       OK (105KB)
+  [59/93] 甲状旁腺功能概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/parathyroid-disorders/overview-of-parathyroid-function
+       OK (547KB)
+  [60/93] 甲状旁腺功能亢进
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/parathyroid-disorders/hyperparathyroidism
+       OK (821KB)
+  [61/93] 甲状旁腺功能减退症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/parathyroid-disorders/hypoparathyroidism
+       OK (607KB)
+  [62/93] 甲状旁腺肿瘤
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/parathyroid-disorders/parathyroid-tumors
+       OK (535KB)
+  [63/93] 垂体疾病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/pituitary-gland-disorders
+       OK (162KB)
+  [64/93] 垂体概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/pituitary-gland-disorders/overview-of-the-pituitary-gland
+       OK (713KB)
+  [65/93] 垂体增大
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/pituitary-gland-disorders/enlargement-of-the-pituitary-gland
+       OK (406KB)
+  [66/93] 垂体功能减退症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/pituitary-gland-disorders/hypopituitarism
+       OK (899KB)
+  [67/93] 精氨酸 加压素缺乏症（中枢性尿崩症）
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/pituitary-gland-disorders/arginine-vasopressin-deficiency-central-diabetes-insipidus
+       OK (736KB)
+  [68/93] 巨人症及肢端肥大症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/pituitary-gland-disorders/gigantism-and-acromegaly
+       OK (877KB)
+  [69/93] 泌乳素瘤
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/pituitary-gland-disorders/prolactinoma
+       OK (729KB)
+  [70/93] 空泡蝶鞍综合征
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/pituitary-gland-disorders/empty-sella-syndrome
+       OK (474KB)
+  [71/93] 多腺体功能低下综合征
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/polyglandular-deficiency-syndromes
+       OK (137KB)
+  [72/93] IPEX 综合征
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/polyglandular-deficiency-syndromes/ipex-syndrome
+       OK (514KB)
+  [73/93] POEMS 综合征
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/polyglandular-deficiency-syndromes/poems-syndrome
+       OK (523KB)
+  [74/93] 多腺体功能低下综合征
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/polyglandular-deficiency-syndromes/polyglandular-deficiency-syndromes
+       OK (605KB)
+  [75/93] 药物诱导的自身免疫性内分泌疾病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/polyglandular-deficiency-syndromes/drug-induced-autoimmune-endocrine-disorders
+       OK (313KB)
+  [76/93] 卟啉病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/the-porphyrias
+       OK (117KB)
+  [77/93] 卟啉病概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/the-porphyrias/overview-of-porphyrias
+       OK (797KB)
+  [78/93] 迟发性皮肤卟啉病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/the-porphyrias/porphyria-cutanea-tarda
+       OK (806KB)
+  [79/93] 急性间歇性卟啉病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/the-porphyrias/acute-intermittent-porphyria
+       OK (928KB)
+  [80/93] 红细胞生成性原卟啉病和 X 连锁原卟啉病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/the-porphyrias/erythropoietic-protoporphyria-and-x-linked-protoporphyria
+       OK (914KB)
+  [81/93] 甲状腺疾病
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders
+       OK (137KB)
+  [82/93] 单纯性非毒性甲状腺肿
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/simple-nontoxic-goiter
+       OK (612KB)
+  [83/93] 桥本甲状腺炎
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/hashimoto-thyroiditis
+       OK (588KB)
+  [84/93] 甲状腺概述
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/overview-of-the-thyroid-gland
+       OK (793KB)
+  [85/93] 甲状腺功能亢进症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/hyperthyroidism
+       OK (1280KB)
+  [86/93] 甲状腺功能减退症
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/hypothyroidism
+       OK (969KB)
+  [87/93] 亚急性甲状腺炎
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/subacute-thyroiditis
+       OK (550KB)
+  [88/93] 无痛性淋巴细胞性甲状腺炎
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/silent-lymphocytic-thyroiditis
+       OK (547KB)
+  [89/93] 甲状腺癌
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/thyroid-gland-disorders/thyroid-cancer
+       OK (656KB)
+  [90/93] 水平衡
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/water-balance
+       OK (86KB)
+  [91/93] 关于体内的水分
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/water-balance/about-body-water
+       OK (594KB)
+  [92/93] 脱水
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/water-balance/dehydration
+       OK (725KB)
+  [93/93] 水过多
+       https://www.msdmanuals.cn/home/hormonal-and-metabolic-disorders/water-balance/overhydration
+       OK (564KB)
+
+============================================================
+采集完成！
+============================================================
+  总文章数: 93
+  成功: 84
+  跳过: 9
+  失败: 0
+  保存目录: C:\System_IT\CloakBrowser\激素和代谢性障碍_PDFs
+
+文件结构:
+  (根): 13 个文件
+  about-body-water: 1 个文件
+  acidosis: 1 个文件
+  acute-complications-of-diabetes-mellitus: 1 个文件
+  acute-intermittent-porphyria: 1 个文件
+  adrenal-insufficiency: 1 个文件
+  adrenal-virilization: 1 个文件
+  alkalosis: 1 个文件
+  amyloidosis: 1 个文件
+  arginine-vasopressin-deficiency-central-diabetes-insipidus: 1 个文件
+  carcinoid-syndrome-due-to-neuroendocrine-tumors: 1 个文件
+  cushing-syndrome: 1 个文件
+  dehydration: 1 个文件
+  drug-induced-autoimmune-endocrine-disorders: 1 个文件
+  dyslipidemia: 1 个文件
+  effects-of-aging-on-the-endocrine-system: 1 个文件
+  elevated-hdl-cholesterol: 1 个文件
+  empty-sella-syndrome: 1 个文件
+  endocrine-disorders: 1 个文件
+  endocrine-function: 1 个文件
+  endocrine-glands: 1 个文件
+  enlargement-of-the-pituitary-gland: 1 个文件
+  erythropoietic-protoporphyria-and-x-linked-protoporphyria: 1 个文件
+  gastrinoma: 1 个文件
+  gigantism-and-acromegaly: 1 个文件
+  glucagonoma: 1 个文件
+  hashimoto-thyroiditis: 1 个文件
+  hyperaldosteronism: 1 个文件
+  hypercalcemia-high-level-of-calcium-in-the-blood: 1 个文件
+  hyperkalemia-high-level-of-potassium-in-the-blood: 1 个文件
+  hypermagnesemia-high-level-of-magnesium-in-the-blood: 1 个文件
+  hypernatremia-high-level-of-sodium-in-the-blood: 1 个文件
+  hyperparathyroidism: 1 个文件
+  hyperphosphatemia-high-level-of-phosphate-in-the-blood: 1 个文件
+  hyperthyroidism: 1 个文件
+  hypocalcemia-low-level-of-calcium-in-the-blood: 1 个文件
+  hypoglycemia: 1 个文件
+  hypokalemia-low-level-of-potassium-in-the-blood: 1 个文件
+  hypolipidemia: 1 个文件
+  hypomagnesemia-low-level-of-magnesium-in-the-blood: 1 个文件
+  hyponatremia-low-level-of-sodium-in-the-blood: 1 个文件
+  hypoparathyroidism: 1 个文件
+  hypophosphatemia-low-level-of-phosphate-in-the-blood: 1 个文件
+  hypopituitarism: 1 个文件
+  hypothyroidism: 1 个文件
+  insulinoma: 1 个文件
+  ipex-syndrome: 1 个文件
+  long-term-complications-of-diabetes-mellitus: 1 个文件
+  medication-treatment-of-diabetes-mellitus: 1 个文件
+  multiple-endocrine-neoplasia-syndromes-men: 1 个文件
+  nonfunctional-adrenal-masses: 1 个文件
+  overhydration: 1 个文件
+  overview-of-acid-base-balance: 1 个文件
+  overview-of-calcium-s-role-in-the-body: 1 个文件
+  overview-of-cholesterol-and-lipid-disorders: 1 个文件
+  overview-of-diabetes-mellitus: 1 个文件
+  overview-of-electrolytes: 1 个文件
+  overview-of-gastrointestinal-and-pancreatic-neuroendocrine-tumors: 1 个文件
+  overview-of-magnesium-s-role-in-the-body: 1 个文件
+  overview-of-parathyroid-function: 1 个文件
+  overview-of-phosphate-s-role-in-the-body: 1 个文件
+  overview-of-porphyrias: 1 个文件
+  overview-of-potassium-s-role-in-the-body: 1 个文件
+  overview-of-sodium-s-role-in-the-body: 1 个文件
+  overview-of-the-adrenal-glands: 1 个文件
+  overview-of-the-pituitary-gland: 1 个文件
+  overview-of-the-thyroid-gland: 1 个文件
+  parathyroid-tumors: 1 个文件
+  pheochromocytoma: 1 个文件
+  poems-syndrome: 1 个文件
+  polyglandular-deficiency-syndromes: 1 个文件
+  porphyria-cutanea-tarda: 1 个文件
+  prolactinoma: 1 个文件
+  silent-lymphocytic-thyroiditis: 1 个文件
+  simple-nontoxic-goiter: 1 个文件
+  subacute-thyroiditis: 1 个文件
+  syndrome-of-inappropriate-secretion-of-antidiuretic-hormone-siadh: 1 个文件
+  thyroid-cancer: 1 个文件
+  type-1-diabetes-mellitus-dm: 1 个文件
+  type-2-diabetes-mellitus: 1 个文件
+  vipoma: 1 个文件
