@@ -1,0 +1,58 @@
+# 密钥和本地配置
+# API Key 写在这里，不能提交上去
+.env
+.env.local
+.env.*.local
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Trae AI IDE
+.trae/
+
+# CodeGraph 索引缓存
+.codegraph/
+
+# Python 编译产物
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ChromaDB 向量库
+# 跑一遍 ingest 就能重建，不用提交
+backend/chroma_db/
+
+# AI 模型权重
+# 文件太大，下载比提交划算
+backend/models/
+
+# Huatuo 问答数据集
+# 本地缓存，需要的人自己下载
+Huatuo-26M/data/
+Huatuo-26M/FreedomIntelligence___huatuo26_m-lite/
+
+# 教材 PDF
+# 默沙东诊疗手册，有版权限制
+knowleagebaseoriginaldata/
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 本地随手记的东西
+1.启动后端.txt
+process.md
